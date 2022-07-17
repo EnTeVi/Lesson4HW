@@ -1,0 +1,155 @@
+.container {
+    width: 100%;
+    height: 620px;
+}
+
+h1 {
+    color: white;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h400px {
+    height: 400px;
+}
+
+.bc-gr {
+    background-color: gray;
+}
+
+.br10 {
+    border-radius: 10px;
+}
+
+.box-one {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.card {
+    width: 800px;
+    height: 200px;
+}
+
+.card:hover {
+    background-image: radial-gradient(#5b4ffc, #df02cd);
+}
+
+.box-two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-one {
+    width: 590px;
+    box-sizing: border-box;
+}
+
+.card-one:hover {
+    background-image: radial-gradient(#5b4ffc, #df02cd);
+}
+
+.card-two {
+    width: 190px;
+    margin-left: 20px;
+}
+
+.card-two:hover {
+    background-image: radial-gradient(#5b4ffc, #df02cd);
+}
+
+
+@media screen and (min-width: 0) and (max-width: 629px) {
+    .container {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .box-one {
+        width: 300px;
+        height: 75px;
+        margin: 20px 0 20px 0;
+    }
+
+    .card {
+        width: 300px;
+        height: 75px;
+    }
+
+    .box-two {
+        width: 300px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-one {
+        width: 300px;
+        height: 225px;
+    }
+
+    .card-two {
+        width: 300px;
+        height: 75px;
+        margin: 20px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 629px) and (max-width: 992px) {
+    .container {
+        width: 100%;
+        height: 420px;
+    }
+
+    .h400px {
+        height: 308px;
+    }
+
+    .bc-gr {
+        background-color: gray;
+    }
+
+    .br10 {
+        border-radius: 10px;
+    }
+
+    .box-one {
+        width: 100%;
+        height: 154px;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .card {
+        width: 615px;
+        height: 154px;
+    }
+
+    .box-two {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-one {
+        width: 453px;
+    }
+
+    .card-two {
+        width: 142px;
+        margin-left: 20px;
+    }
+
+}
